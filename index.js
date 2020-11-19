@@ -1,6 +1,7 @@
 function init() {
     var elemDiv = document.createElement('div');
     elemDiv.setAttribute('id', 'root');
+    elemDiv.setAttribute("style", "display: none;");
     window.document.body.appendChild(elemDiv);
     var script1 = document.createElement("script");
     var script2 = document.createElement("script");
